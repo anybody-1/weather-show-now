@@ -1,0 +1,18 @@
+{
+  "name": "weather-tody-cli",
+  "version": "1.0.1",
+  "description": "一款获取用户所在地天气及目标城市天气的应用",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "weather": "./main.js"
+  },
+  "keywords": ["天气","weather"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "weather-show-now": "^1.0.2"
+  }
+}
